@@ -40,7 +40,7 @@ Uma página web será aberta na rota [http://localhost:3000/](http://localhost:3
 ***
 
 ### Tela de Login
-![Tela de Login](./readme-images/login-screen.png)
+![Tela de login](./readme-images/login-screen.png)
 
 Caso não tenha um usuário cadastrado para fazer login, clique em **`Registre-se`**.
 ***
@@ -53,13 +53,13 @@ Todos os campos devem ser preenchidos para a realização do cadastro, seguindo 
 * A senha deve conter pelo menos 6 dígitos.
 * A confirmação de senha deve ser identica à senha do campo anterior.
 
-![Tela de Cadastro](./readme-images/register-screen.png)
+![Tela de cadastro](./readme-images/register-screen.png)
 
 Após realizar o registro de um usuário, clique em **`Fazer login`** para entrar com o seu cadastro.
 ***
 
 ### Validação de campos na Tela de Login
-![Erros na Tela de Cadastro](./readme-images/errors-login-screen.png)
+![Erros na tela de cadastro](./readme-images/errors-login-screen.png)
 ***
 
 ### Login de usuário não cadastrado
@@ -67,19 +67,19 @@ Após realizar o registro de um usuário, clique em **`Fazer login`** para entra
 ***
 
 ### Validação de campos na Tela de Cadastro
-![Erros na Tela de Cadastro](./readme-images/errors-register-screen.png)
+![Campos vazios no cadastro](./readme-images/errors-register-screen.png)
 ***
 
 ### Usuário já cadastrado
 Tentativas de cadastro que contenham um e-mail ou CPF já existente no banco de dados não serão registrados.
 
-![Usuário não encontrado](./readme-images/already-registered.png)
+![Usuário já cadastrado](./readme-images/already-registered.png)
 ***
 
 ### Tela de Boas-Vindas
 Ao efetuar o login com sucesso na aplicação será exibida uma tela de boas-vindas com o primeiro nome do usuário cadastrado.
 
-![Usuário não encontrado](./readme-images/welcome-screen.png)
+![Tela de boas-vindas](./readme-images/welcome-screen.png)
 
 Para efetuar o *logout* basta clicar no botão **`SAIR DA CONTA`** e será redirecionado para a tela de login novamente.
 ***
