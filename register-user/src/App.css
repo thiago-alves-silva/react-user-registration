@@ -93,7 +93,6 @@ form button[type="submit"]:hover {
   opacity: .8;
 }
 form .info-message {
-  background-color: burlywood;
   display: flex;
   justify-content: center;
   color: #fff;
@@ -110,7 +109,7 @@ form .success {
 }
 .input-error {
   display: block;
-  color: red;
+  color: background-color: rgb(66, 206, 66);
   font-size: 14px;
   text-indent: 5px;
   font-weight: bold;
