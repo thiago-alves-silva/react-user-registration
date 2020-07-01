@@ -1,0 +1,29 @@
+.welcome-container {
+  align-self: flex-end;
+}
+.welcome {
+  color: #707070;
+  font-size: 60px;
+  text-align: center;
+}
+.action-buttons-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.action-buttons-container button {
+  background: #fff;
+  color: var(--primary-color);
+  font-size: 18px;
+  border: 2px solid var(--primary-color);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all .3s;
+  margin: 20px 15px 0;
+  width: 200px;
+  height: 50px;
+}
+.action-buttons-container button:hover {
+  background:var(--primary-color);
+  color: #fff;
+}

@@ -8,7 +8,7 @@ Projeto de teste para o processo seletivo de uma vaga de estágio na **[ADIN](ht
 
 >`git clone https://github.com/thiago-alves-silva/react-user-registration.git`
 
-2. Instale as dependencias do servidor da API.
+2. Instale as dependências do servidor da API.
 
 >`cd api-nodejs`
 
@@ -22,7 +22,7 @@ Projeto de teste para o processo seletivo de uma vaga de estágio na **[ADIN](ht
 
 Acesse a rota [http://localhost:3001/api/users](http://localhost:3001/api/users) e certifique-se de que o API está disponível. *Um array (inicialmente vazio) deve ser retornado ao entrar a página*.
 
-4. Instale as dependencias da aplicação.
+4. Instale as dependências da aplicação.
 
 >`cd register-user`
 

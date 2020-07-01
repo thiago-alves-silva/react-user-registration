@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Varela Round";
+  src: url('./font/varela-round.woff2') format('woff2');
+}
+:root {
+  --primary-color: #F5A220;
+  --secondary-color: #AAAAAA;
+  --tertiary-color: #CCCCCC;
+  --font: "Varela Round"
+}
+::placeholder {
+  color: var(--tertiary-color);
+}
+*::-webkit-scrollbar {
+  background-color: #fff;
+  width: 5px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 3px;
+}
+*::-webkit-scrollbar-button {
+  display: none;
+}
+* {
+  font-family: var(--font);
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100vh;
+}
+.form-container {
+  align-self: flex-end;
+  margin: 50px 30px;
+  width: 100%;
+  max-width: 400px;
+}
+form div {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.register-container form div {
+  margin-bottom: 15px;
+}
+form div input {
+  color: var(--secondary-color);
+  font-size: 16px;
+  border: 2px solid var(--tertiary-color);
+  border-radius: 5px;
+  transition: all .3s;
+  padding: 0 10px 0 45px;
+  width: 100%;
+  height: 45px;
+}
+form div svg {
+  position: absolute;
+  fill: var(--tertiary-color);
+  transition: fill .3s;
+  top: 10px;
+  left: 10px;
+  width: 25px;
+  height: 25px;
+}
+form div input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+form div input:focus ~ svg {
+  fill: var(--primary-color);
+}
+form button[type="submit"] {
+  background: var(--primary-color);
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: .6px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: opacity .3s;
+  margin: 5px 0 20px;
+  padding: 10px 0;
+  width: 100%;
+}
+form button[type="submit"]:hover {
+  opacity: .8;
+}
+form .info-message {
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  border: 2px solid rgba(0,0,0,.3);
+  border-radius: 3px;
+  animation: showInfoMessage 1s forwards;
+  padding: 6px 0;
+}
+form .error {
+  background-color: rgb(243, 67, 67);
+}
+form .success {
+  background-color: rgb(66, 206, 66);
+}
+.input-error {
+  display: block;
+  color: red;
+  font-size: 14px;
+  text-indent: 5px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.other-actions span {
+  display: block;
+  color: var(--secondary-color);
+  text-align: center;
+  margin-bottom: 5px;
+}
+.other-actions span a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+@keyframes showInfoMessage {
+  from {
+    opacity: 0;
+    transform: translateX(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
