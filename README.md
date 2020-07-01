@@ -58,12 +58,22 @@ Todos os campos devem ser preenchidos para a realização do cadastro, seguindo 
 Após realizar o registro de um usuário, clique em **`Fazer login`** para entrar com o seu cadastro.
 ***
 
+### Validação de campos na Tela de Login
+![Erros na Tela de Cadastro](./readme-images/errors-login-screen.png)
+***
+
+### Login de usuário não cadastrado
+![Usuário não encontrado](./readme-images/user-not-found.png)
+***
+
 ### Validação de campos na Tela de Cadastro
 ![Erros na Tela de Cadastro](./readme-images/errors-register-screen.png)
 ***
 
-### Validação de campos na Tela de Login
-![Erros na Tela de Cadastro](./readme-images/errors-login-screen.png)
+### Usuário já cadastrado
+Tentativas de cadastro que contenham um e-mail ou CPF já existente no banco de dados não serão registrados.
+
+![Usuário não encontrado](./readme-images/already-registered.png)
 ***
 
 ## Informações Adicionais
