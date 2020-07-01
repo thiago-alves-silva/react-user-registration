@@ -16,7 +16,7 @@ const Login = () => {
       oldMessageInfo && oldMessageInfo.remove()
       form.appendChild(messageInfo);
     } else {
-      localStorage.name = data.name
+      localStorage.name = String(data.name).split(' ')[0]
       localStorage._id = data._id
       window.location.replace(window.location.origin)
     }

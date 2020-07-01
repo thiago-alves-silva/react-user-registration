@@ -76,6 +76,14 @@ Tentativas de cadastro que contenham um e-mail ou CPF já existente no banco de 
 ![Usuário não encontrado](./readme-images/already-registered.png)
 ***
 
+### Tela de Boas-Vindas
+Ao efetuar o login com sucesso na aplicação, será exibida uma tela de boas-vindas com o primeiro nome do usuário cadastrado.
+
+![Usuário não encontrado](./readme-images/welcome-screen.png)
+
+Para efetuar o *logout* basta clicar no botão **`SAIR DA CONTA`** e será redirecionado para a tela de login novamente.
+***
+
 ## Informações Adicionais
 No front-end foi utilizada a biblioteca React com o auxilio das dependencias:
  * **Axios:** para efetuar as requisições no servidor da API.
