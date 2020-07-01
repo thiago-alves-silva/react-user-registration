@@ -14,13 +14,13 @@ Projeto de teste para o processo seletivo de uma vaga de estágio na **[ADIN](ht
 
 >`npm install`
 
-3. Executando o servidor da API.
+3. Execute o servidor da API.
 
 >`cd api-nodejs`
 
 >`npm start`
 
-Acesse a rota [http://localhost:3001/api/users](http://localhost:3001/api/users) e certifique-se de que o API está disponível. *Um array (inicialmente vazio) deve ser retornado ao entrar a página*.
+Acesse a rota [http://localhost:3001/api/users](http://localhost:3001/api/users) e certifique-se de que o API está disponível. Um array *(inicialmente vazio)* deve ser retornado ao entrar a página. **Todos os usuários cadastrados serão exibidos e disponibilizados nessa rota.**
 
 4. Instale as dependências da aplicação.
 
@@ -64,3 +64,13 @@ Após realizar o registro de um usuário, clique em **`Fazer login`** para entra
 
 ### Validação de campos na Tela de Login
 ![Erros na Tela de Cadastro](./readme-images/errors-login-screen.png)
+***
+
+## Informações Adicionais
+No front-end foi utilizada a biblioteca React com o auxilio das dependencias:
+ * **Axios:** para efetuar as requisições no servidor da API.
+ * **Formik:** para a manipulação de formulários.
+ * **Yup:** para as validações de campos nos formulários.
+ * **React Router DOM:** para o roteamento da aplicação.
+ 
+ ***
