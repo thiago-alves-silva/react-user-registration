@@ -1,5 +1,5 @@
 # Aplicação de Cadastro de Usuário
-Projeto de teste para o processo seletivo de uma vaga de estágio na **[ADIN](https://www.adin.com.br/)/[ClaraVista](https://www.claravista.com.br/)**
+Projeto de teste para o processo seletivo de uma vaga de estágio na **[ADIN](https://www.adin.com.br/)/[ClaraVista](https://www.claravista.com.br/)**, utilizando [MongoDB](https://www.mongodb.com/) na base de dados, [Node.js](https://nodejs.org/) no back-end e [React](https://pt-br.reactjs.org/) no front-end.
 ***
 
 ## Instalação
