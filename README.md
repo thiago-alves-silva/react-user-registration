@@ -41,6 +41,7 @@ Uma página web será aberta na rota [http://localhost:3000/](http://localhost:3
 
 ### Tela de Login
 ![Tela de Login](./readme-images/login-screen.png)
+
 Caso não tenha um usuário cadastrado para fazer login, clique em **`Registre-se`**.
 ***
 
@@ -53,6 +54,7 @@ Todos os campos devem ser preenchidos para a realização do cadastro, seguindo 
 * A confirmação de senha deve ser identica à senha do campo anterior.
 
 ![Tela de Cadastro](./readme-images/register-screen.png)
+
 Após realizar o registro de um usuário, clique em **`Fazer login`** para entrar com o seu cadastro.
 ***
 
